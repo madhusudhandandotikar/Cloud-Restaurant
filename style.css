@@ -1,0 +1,63 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header{
+background-color: black;
+color: aliceblue;
+max-height:20vh;
+text-align: center;
+padding: 15px;
+}
+
+.nav a{
+    text-decoration: None;
+    margin-right: 10px;
+    color: azure;
+}
+
+.container{
+    height:68vh;
+    color: aliceblue;
+    text-align: center;
+    background-image: url("https://img.freepik.com/premium-photo/slice-traditional-italian-pepperoni-pizza-with-tomato-sauce-arugula_285885-2420.jpg?size=626&ext=jpg&ga=GA1.1.1051144718.1685863354&semt=ais");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1px;
+}
+
+footer{
+    height:8vh;
+    padding:5px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+}
+
+.menu-item{
+    display:inline-block;
+    justify-content: space-between;
+    padding:5px;
+    border-radius: 3px;
+    align-items: center;
+    height: 200px;
+    width:200px;
+    margin:5px;
+    background-color: rgb(142, 165, 186);
+}
+
+.menu-img{
+    height:100px;
+    width:100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.menu-name{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
